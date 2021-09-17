@@ -7,6 +7,7 @@
     <title>Reservia</title>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../../fontawesome-free-5.15.4-web/css/all.css" />
   </head>
   <body>
     <nav class="menu">
@@ -23,8 +24,27 @@
     <header>
       <h1>Trouvez votre hébergement pour des Vacances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
+      <form>
+        <span class="icon_search"><i class="fas fa-map-marker-alt"></i></><input type="text" name="text" class="search" placeholder="Marseille, France"><input type ="submit" name="submit" class="submit" value="Rechercher">
+      </form>
+      <div class="filter"><p>Filtres
+        <a href=""><i class="fas fa-money-bill-wave"></i>Économique</a>
+        <a href=""><i class="fas fa-child"></i>Familial</a>
+        <a href=""><i class="fas fa-heart"></i>Romantique</a>
+        <a href=""><i class="fas fa-dog"></i>Animaux autorisés</a>
+        </p>  
+      </div>
+      <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
     </header>
 
-    <section id="Hebergements"></section>
+    <section id="Hebergements">
+      <article>
+        <h2>Hébergements à Marseille</h2>
+      </article>
+      
+      <aside>
+        <h2>Les plus populaires</h2>
+      </aside>
+    </section>
   </body>
 </html>
